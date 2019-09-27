@@ -19,9 +19,9 @@ var hidden5 = new Text('You wear the officers cloth');
 hidden5.hide();
 var hidden55 = new Text('you sprint for the exit');
 hidden55.hide();
-var hidden555 = new Text('you hear a gunshot, a tear gas bullet flies past you');
+var hidden555 = new Text('you hear tear gas being deployed, a tear gas bullet flies past you');
 hidden555.hide();
-var hidden6 = new Button('Unequip gas mask');
+var hidden6 = new Button('You find the right door and make it');
 hidden6.hide();
 
 
