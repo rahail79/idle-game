@@ -21,7 +21,7 @@ var hidden55 = new Text('you sprint for the exit');
 hidden55.hide();
 var hidden555 = new Text('you hear tear gas being deployed, a tear gas bullet flies past you');
 hidden555.hide();
-var hidden6 = new Button('You find the right door and make it');
+var hidden6 = new Button('You find the right door and make it', door);
 hidden6.hide();
 
 
@@ -78,4 +78,11 @@ function btnPress() {
   }
 
 
+}
+function door() {
+  var list = new HTMLElement('ul')
+  var listItem1 = new HTMLElement('li', 'Congratulations')
+  var listItem1 = new HTMLElement('li', 'you made it,now your free to do what you want.')
+list.add(listItem1);
+list.add(listItem1);
 }
